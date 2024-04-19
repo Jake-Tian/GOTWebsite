@@ -1,0 +1,14 @@
+
+/*
+The alternative css for the dark mode
+*/
+
+.dark {
+    background-color: #1d1d1f;
+    color: white;
+}
+
+.dark div.desc a {
+    color: white;
+    text-decoration: none;
+}

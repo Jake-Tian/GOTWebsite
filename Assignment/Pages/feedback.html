@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- This is the feedback page of my website-->
+
+    <title> 
+        Feedback
+    </title>
+
+    <link rel = "stylesheet" href = "css/style.css">
+
+    <body>
+        <h1> Feedback Form</h1>
+
+        <p> Your feedback is very important to me!</p>
+        <br>
+
+        <!-- All the feedback from users will be sent to my email-->
+        <form id = "form" enctype="text/plain" action="mailto:u7244193@anu.edu.au" method = "get"> 
+            
+            <!-- The name input space -->
+            Your name: 
+            <input type="text" name="name" size="33" maxlength="50">
+            <br/>
+            <br/>
+
+            <!-- The emial input space-->
+            Your email: 
+            <input type="text" name="email" size="33" maxlength="50">
+            <br/>
+            <br/>
+
+            <!-- A radio button allowing users to select their gender-->
+            Your gender:
+            <br>
+            <br>
+            <input type = "radio" id = "choice1" name = "gender" value = "male">
+            <label for = "choice1"> Male </label>
+            <input type = "radio" id = "choice2" name = "gender" value = "female">
+            <label for = "choice2"> Female </label>
+            <input type = "radio" id = "choice3" name = "gender" value = "other">
+            <label for = "choice3"> Ohter </label>
+            <input type = "radio" id = "choice4" name = "gender" value = "no">
+            <label for = "choice4"> I prefer not to say </label>
+            <br>
+            <br>
+            <br>
+
+            <!-- The like and improvement input space, which is larger-->
+            What do you like about my website?
+            <br>
+            <textarea type="text" id="like" maxlength="200"> </textarea>
+            <br>
+            <br>
+
+            How do you think I can improve?
+            <br>
+            <textarea type="text" id="improvement" maxlength="200"> </textarea>
+            <br>
+            <br>
+
+            <!-- Reset and submit buttons-->
+            <hr>
+            <input type="reset" id="reset" value="Clear">
+            <input type="submit" id="submit" value="Submit">
+            <hr>
+
+        </form>
+
+        <br>
+        <p>
+            Valar yzaldrizes.
+            ~ Anyone can speak.
+        </p>
+        <br>
+
+    </body>
+
+</html>

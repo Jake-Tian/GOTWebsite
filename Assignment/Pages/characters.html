@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<!-- This is the Character page of my website -->
+
+    <title> 
+        Characters
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel = "stylesheet" href = "css/darkmode.css">
+    <link rel = "stylesheet" href = "css/printermode.css">
+
+    <body>
+
+        <h1>
+            Characters
+        </h1>
+
+        <button onclick="toggleDarkMode()"> Light / Dark Mode </button>
+        <button id="printButton" onclick="togglePrintMode()"> Printer-friendly Mode </button>
+
+        <p> 
+            "Nobody is a villain in their own story. We&#39;re all the heroes of our own stories."
+            <br>
+            -- George R.R. Martin
+        </p>
+
+
+        <div>
+          <button class="selection button active" onclick="filterSelection('all')"> Show all</button>
+          <button class="selection button" onclick="filterSelection('stark')">House Stark</button>
+          <button class="selection button" onclick="filterSelection('lannister')">House Lannister</button>
+        </div>
+
+          <div class="gallery stark">
+            <div class="content">
+              <a target="Jon" href="characters/jon.html">
+                <img src="image/Characters/Jon.png" alt="Jon Snow sitting on the Iron Throne">
+              </a>
+              <div class="desc"><a href = "characters/jon.html">Jon Snow</a></div>
+            </div>
+          </div>
+          
+          <div class="gallery">
+            <a target="Dany" href="characters/dany.html">
+              <img src="image/Characters/Dany.png" alt="Daenerys Targaryen sitting on the Iron Throne">
+            </a>
+            <div class="desc"> <a href="characters/dany.html"> Daenerys Targaryen <br> "Mother of Dragons" </a></div>
+          </div>
+          
+          <div class="gallery stark">
+            <a target="Arya" href="characters/arya.html">
+              <img src="image/Characters/Arya.png" alt="Arya Stark sitting on the Iron Throne">
+            </a>
+            <div class="desc"><a href = "characters/arya.html">Arya Stark</a></div>
+          </div>
+
+          <div class="gallery lannister">
+            <a target="Imp" href="characters/imp.html">
+              <img src="image/Characters/Imp.png" alt="Tyrion Lannister sitting on the Iron Throne">
+            </a>
+            <div class="desc"> <a href = "characters/imp.html"> Tyrion Lannister <br> "The Imp"</a></div>
+          </div>
+
+          <div class="gallery stark">
+            <a target="Bran" href="characters/bran.html">
+              <img src="image/Characters/Bran.png" alt="Bran Stark sitting on the Iron Throne">
+            </a>
+            <div class="desc"><a href = "characters/bran.html">Bran Stark <br> "The Broken"</a></div>
+          </div>
+
+          <div class="gallery stark">
+            <a target="Sansa" href="characters/sansa.html">
+              <img src="image/Characters/Sansa.png" alt="Sansa Stark sitting on the Iron Throne">
+            </a>
+            <div class="desc"><a href = "characters/sansa.html">Sansa Stark</a></div>
+          </div>
+
+          <div class="gallery lannister">
+            <a target="Cercei" href="image/Characters/Cercei.png">
+              <img src="image/Characters/Cercei.png" alt="Cercei Lannister sitting on the Iron Throne">
+            </a>
+            <div class="desc">Cercei Lannister</div>
+          </div>
+
+          <div class="gallery lannister">
+            <a target="Jaime" href="image/Characters/Jaime.png">
+              <img src="image/Characters/Jaime.png" alt="Jaime Lannister sitting on the Iron Throne">
+            </a>
+            <div class="desc">Jaime Lannister <br> "The Kingslayer"</div>
+          </div>
+
+          <div class="gallery">
+            <a target="Brienne" href="image/Characters/Brienne.png">
+              <img src="image/Characters/Brienne.png" alt="Brienne sitting on the Iron Throne">
+            </a>
+            <div class="desc">Brienne of Tarth <br> "The beauty"</div>
+          </div>
+
+          <div class="gallery">
+            <a target="Theon" href="image/Characters/Theon.png">
+              <img src="image/Characters/Theon.png" alt="Theon Greyjoy sitting on the Iron Throne">
+            </a>
+            <div class="desc">Theon Greyjoy</div>
+          </div>
+
+          <div class="gallery">
+            <a target="NK" href="image/Characters/NK.png">
+              <img src="image/Characters/NK.png" alt="The Night King sitting on the Iron Throne">
+            </a>
+            <div class="desc">Night King</div>
+          </div>
+
+
+        <script src = "javascript/main.js"></script>
+
+    </body>
+
+</html>

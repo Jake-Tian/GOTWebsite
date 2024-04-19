@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+
+<!-- This is a third level webpage entered from the great_house.html -->
+
+    <title> 
+        House Stark
+    </title>
+
+    <meta charset="utf-8">
+
+    <link rel = "stylesheet" href = "css/style.css">
+
+
+    <body>
+
+        <h1>
+            House Stark
+        </h1>
+
+        <img id = "starks3" src = "image/Three_Starks.jpeg" usemap="#image-map" alt = "Three Starks sitting together">
+
+        <map name="image-map">
+            <area title="arya"  href="characters/arya.html"  coords="48,51,207,447"  shape="rect" onclick="alertWindow('Arya')"  onmouseover="highlightArea(this)" onmouseout="resetArea(this)" alt = "Arya Stark">
+            <area title="bran"  href="characters/bran.html"  coords="271,18,510,447" shape="rect" onclick="alertWindow('Bran')"  onmouseover="highlightArea(this)" onmouseout="resetArea(this)" alt = "Bran Stark">
+            <area title="sansa" href="characters/sansa.html" coords="602,29,755,448" shape="rect" onclick="alertWindow('Sansa')" onmouseover="highlightArea(this)" onmouseout="resetArea(this)" alt = "Sansa Stark">
+        </map>
+
+        <p> Three Stark members reunited</p>
+
+        <script src = "javascript/main.js"></script>
+        
+    </body>
+
+</html>
